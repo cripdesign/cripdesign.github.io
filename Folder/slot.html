@@ -2,13 +2,13 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Untitled-6</title>
+<title>slot</title>
 
 <script src="http://code.createjs.com/easeljs-0.8.1.min.js"></script>
 <script src="http://code.createjs.com/tweenjs-0.6.1.min.js"></script>
 <script src="http://code.createjs.com/movieclip-0.8.1.min.js"></script>
 <script src="http://code.createjs.com/preloadjs-0.6.1.min.js"></script>
-<script src="Untitled-6.js"></script>
+<script src="slot.js"></script>
 
 <script>
 var canvas, stage, exportRoot;
@@ -23,7 +23,7 @@ function init() {
 	var loader = new createjs.LoadQueue(false);
 	loader.addEventListener("fileload", handleFileLoad);
 	loader.addEventListener("complete", handleComplete);
-loader.loadFile({src:"images/Untitled_6_atlas_.json", type:"spritesheet", id:"Untitled_6_atlas_"}, true);
+loader.loadFile({src:"images/slot_atlas_.json", type:"spritesheet", id:"slot_atlas_"}, true);
 	loader.loadManifest(lib.properties.manifest);
 }
 
@@ -33,8 +33,8 @@ function handleFileLoad(evt) {
 
 function handleComplete(evt) {
 	var queue = evt.target;
-	ss["Untitled_6_atlas_"] = queue.getResult("Untitled_6_atlas_");
-	exportRoot = new lib.Untitled6();
+	ss["slot_atlas_"] = queue.getResult("slot_atlas_");
+	exportRoot = new lib.slot();
 
 	stage = new createjs.Stage(canvas);
 	stage.addChild(exportRoot);

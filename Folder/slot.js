@@ -18,77 +18,77 @@ lib.properties = {
 
 
 (lib.big_win = function() {
-	this.spriteSheet = ss["Untitled_6_atlas_"];
+	this.spriteSheet = ss["slot_atlas_"];
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.main_bg = function() {
-	this.spriteSheet = ss["Untitled_6_atlas_"];
+	this.spriteSheet = ss["slot_atlas_"];
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.startFreeSpinsBtn = function() {
-	this.spriteSheet = ss["Untitled_6_atlas_"];
+	this.spriteSheet = ss["slot_atlas_"];
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.tile0normal = function() {
-	this.spriteSheet = ss["Untitled_6_atlas_"];
+	this.spriteSheet = ss["slot_atlas_"];
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.tile1normal = function() {
-	this.spriteSheet = ss["Untitled_6_atlas_"];
+	this.spriteSheet = ss["slot_atlas_"];
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.tile2normal = function() {
-	this.spriteSheet = ss["Untitled_6_atlas_"];
+	this.spriteSheet = ss["slot_atlas_"];
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.tile3normal = function() {
-	this.spriteSheet = ss["Untitled_6_atlas_"];
+	this.spriteSheet = ss["slot_atlas_"];
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.tile4normal = function() {
-	this.spriteSheet = ss["Untitled_6_atlas_"];
+	this.spriteSheet = ss["slot_atlas_"];
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.tile5normal = function() {
-	this.spriteSheet = ss["Untitled_6_atlas_"];
+	this.spriteSheet = ss["slot_atlas_"];
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.tile7normal = function() {
-	this.spriteSheet = ss["Untitled_6_atlas_"];
+	this.spriteSheet = ss["slot_atlas_"];
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.tile8normal = function() {
-	this.spriteSheet = ss["Untitled_6_atlas_"];
+	this.spriteSheet = ss["slot_atlas_"];
 	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
@@ -434,7 +434,7 @@ p.nominalBounds = new cjs.Rectangle(-670.3,-387.1,1340.6,774.3);
 
 
 
-(lib.Untitled6 = function(mode,startPosition,loop) {
+(lib.slot = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{beg:1});
 
 	// timeline functions:
